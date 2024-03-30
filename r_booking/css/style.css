@@ -1,0 +1,108 @@
+*
+{
+	margin:0;
+	padding:0;
+	font-family: 'Poppins', sans-serif;
+}
+
+/*body*/
+body
+{
+	overflow-y: scroll;
+	overflow-x: hidden;
+        
+}
+.title-font{
+	font-family: 'Signika';
+	font-weight: 700;
+}
+/*headers*/
+.header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/1.jpg);
+	height:80vh;
+	background-position:center;
+	background-size:cover;
+	justify-content: center;
+}
+
+.header2
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/6.jpeg);
+	height:40vh;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+
+/*navbar*/
+.navbar{
+	background-color: #162838;
+	height: 90px;
+}
+.brand-name{
+	color: rgb(254, 255, 232);
+}
+.nav-logo{
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+.navbar-brand {
+font-family: "Brush Script MT", "Brush Script Std", cursive;
+}
+
+.navbar .navbar-nav .active{
+	border-bottom:1px solid  white;
+}
+
+.navbar .navbar-nav .nav-item a{
+	color:#fff;
+	padding: 10px;
+}
+.navbar .navbar-nav{
+	margin-left: 120px;
+}
+.nav-item{
+	margin-left: 1.5rem;
+}
+.navbar .navbar-nav .nav-item a:hover{
+	background-color: #065896;
+	border-radius: 50px;
+	color:white;
+}
+/* 
+.navbar .navbar-nav  li a{
+} */
+
+.header-button .btn{
+	margin-top:40vh;
+}
+
+.fa-sign-in , .fa-user-plus{
+		margin-left: 30px;
+		color: #090909;
+		padding: 0.7em 1.7em;
+		font-size: 18px;
+		border-radius: 0.5em;
+		background: #e8e8e8;
+		cursor: pointer;
+		border: 1px solid #e8e8e8;
+		transition: all 0.3s;
+		box-shadow: 1px 1px 2px #c5c5c5, -1px -1px 2px #ffffff;
+}
+.fa-sign-in:active, .fa-user-plus:active {
+	color: #666;
+	box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #162838;
+  }
+.row {
+  margin: 15px;
+}
+
+.nav-link {
+	cursor:pointer;
+}
+
+
+
